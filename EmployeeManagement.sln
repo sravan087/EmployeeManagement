@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeWeb", "EmployeeWeb\EmployeeWeb.csproj", "{A35CE1FC-9BA5-41B6-A281-915C3330BC88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeAPI", "EmployeeAPI\EmployeeAPI.csproj", "{609EFE58-A8DA-44E8-B6FE-E1BFF019D44F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeService", "EmployeeService\EmployeeService.csproj", "{35F2494A-6B5C-473F-9F50-F3DBBA298A8B}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A35CE1FC-9BA5-41B6-A281-915C3330BC88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A35CE1FC-9BA5-41B6-A281-915C3330BC88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A35CE1FC-9BA5-41B6-A281-915C3330BC88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A35CE1FC-9BA5-41B6-A281-915C3330BC88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{609EFE58-A8DA-44E8-B6FE-E1BFF019D44F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{609EFE58-A8DA-44E8-B6FE-E1BFF019D44F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{609EFE58-A8DA-44E8-B6FE-E1BFF019D44F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{609EFE58-A8DA-44E8-B6FE-E1BFF019D44F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35F2494A-6B5C-473F-9F50-F3DBBA298A8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35F2494A-6B5C-473F-9F50-F3DBBA298A8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35F2494A-6B5C-473F-9F50-F3DBBA298A8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35F2494A-6B5C-473F-9F50-F3DBBA298A8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
