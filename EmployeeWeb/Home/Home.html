@@ -1,0 +1,32 @@
+﻿<h2>This is emp home page</h2>
+
+<div class="container container-fluid">
+
+    <div class="row">
+        <button class="btn btn-primary" ng-click="ViewEmployees()">View Employees</button>
+        <button class="btn btn-warning" style="float:right" ng-click="logout()">Logout</button>
+    </div>
+    <br />
+    <br />
+    <div ng-controller="HomeCtrl">
+
+        <table class="table table-bordered table-striped table-hover">
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email Name</th>
+                    <th>DOB</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="emp in Employees">
+                    <td>{{emp.firstName}}</td>
+                    <td>{{emp.lastName}}</td>
+                    <td>{{emp.email}}</td>
+                    <td>{{emp.dateofBirth}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
