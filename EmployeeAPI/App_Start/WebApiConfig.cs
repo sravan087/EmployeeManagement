@@ -30,7 +30,7 @@ namespace EmployeeAPI
             config.Formatters.JsonFormatter.UseDataContractJsonSerializer = false;
 
 
-            EnableCorsAttribute cors = new EnableCorsAttribute("http://localhost:57361", "*", "*");
+            EnableCorsAttribute cors = new EnableCorsAttribute("*", "*", "*");
             config.EnableCors(cors);
         }
     }

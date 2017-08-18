@@ -5,15 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
 
-
+    <base href="/">
     <script src="scripts/angular.min.js"></script>
     <script src="scripts/angular-route.min.js"></script>
+    <script type="text/javascript" src="//cdn.rawgit.com/auth0/angular-storage/master/dist/angular-storage.js"></script>
 </head>
 <body >
+
     <div class="container" ng-view></div>
+
     <script src="config.js"></script>
     <script src="app.js"></script>
 
+    <script src="Login/login.js"></script>
     <script src="Home/home.js"></script>
 </body>
 </html>

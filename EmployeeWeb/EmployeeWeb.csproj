@@ -104,6 +104,9 @@
     <Content Include="Home\Home.html" />
     <Content Include="Home\home.js" />
     <Content Include="Index.html" />
+    <Content Include="Login\login.css" />
+    <Content Include="Login\Login.html" />
+    <Content Include="Login\login.js" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
